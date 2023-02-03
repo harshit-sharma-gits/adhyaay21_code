@@ -1,0 +1,135 @@
+
+body{
+    background-color: #211D21;
+    color: white;
+}
+
+.container0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .container0{
+        flex-direction: column;
+    }
+}
+
+.card1{
+    width: 50vw;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.container0{
+    padding: 40px;
+}
+.container0.card-body{
+    margin: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    margin: 70px 0 70px 0;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ba000067;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container1:hover .overlay {
+    height: 70%;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text2 Button{
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.text1{
+    display: none;
+}
+
+.passesText {
+    padding-left: 150px;
+    padding-top: 20px;
+    color: white;
+}
+
+.passesText h1 {
+    color: white;
+}
+
+.passesText h2 {
+    color: #f7141b;
+}
+
+.popupWindowPass {
+    height: auto;
+    width: 300px;
+    background-color: rgba(240, 21, 21, 0.76);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(27, 27, 27, 0.699) 0px 0px 0px 3px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .card1{
+        width: 70vw;
+    }
+    .image {
+        margin: 70px 0 70px 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .text2 {
+        display: none;
+    }
+    .overlay{
+        display: none;
+    }
+    .text1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        color: white;
+    }
+    .passesText {
+        padding-left: 30px;
+    }
+}

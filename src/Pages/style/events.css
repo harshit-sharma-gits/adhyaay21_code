@@ -1,0 +1,129 @@
+.eventStyle1 {
+    height: 6400px;
+    width: 100%;
+    background-color: rgb(33, 29, 33);
+    color: white;
+}
+
+.eventStyle2 {
+    height: 6000px;
+    width: 100%;
+    background-color: rgb(33, 29, 33);
+    color: white;
+}
+
+.eventStyle3 {
+    height: 4450px;
+    width: 100%;
+    background-color: rgb(33, 29, 33);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .eventStyle1 {
+        height: 6800px;
+    }
+    .eventStyle2 {
+        height: 6900px;
+    }
+    .eventStyle3 {
+        height: 5000px;
+    }
+}
+
+.mainSection {
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.dayChooserStyle {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 50ms ease-in-out 25ms;
+    color: white;
+}
+
+.link:hover {
+    color: #f7141b;
+    transform: translateY(-2px);
+}
+
+.dayChooserStyle:hover {
+    color: #f7141b;
+    cursor: pointer;
+}
+
+.choosedDayStyle {
+    height: 70px;
+    width: 100px;
+    background-color: #f7141b;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eventsArea {
+    margin-top: 50px;
+    height: 1200px;
+    width: 90vw;
+}
+
+.registrationButton {
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: #8f8f8f;
+    transition: background-color 120ms ease-in-out 120ms;
+    transition: color 60ms ease-in-out 60ms;
+}
+
+.registrationButton a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.registrationButton:hover {
+    background-color: #f7141c;
+    color: white;
+}
+
+h1 {
+    color: #f7141b;
+    font-weight: 600;
+}
+
+h5 {
+    font-style: oblique;
+}
+
+.eventPageSpaces {
+    display: contents;
+}
+
+.eventPageBRs {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .eventPageSpaces {
+        display: none;
+    }
+    
+    .eventPageBRs {
+        display: contents;
+    }
+    
+    .registrationButton {
+        margin-left: 5px;
+    }
+}

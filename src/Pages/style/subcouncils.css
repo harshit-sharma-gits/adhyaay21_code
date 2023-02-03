@@ -1,0 +1,104 @@
+/* .subCouncilCard {
+    width: 100%;
+    height: 300px;
+    
+    background-color: white;
+    
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+
+    margin-top: 50px;
+    padding: 5px;
+
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.subCouncilCard:hover {
+    box-shadow: rgba(247, 20, 27, 0.699) 0px 0px 0px 6px;
+    transform: scale(1.025);
+}
+
+.subCouncilAbout {
+    padding: 20px;
+    font-size: 18px;
+} */
+
+.sectionStyle {
+    background-color: rgb(33, 29, 33);
+    height: 1000px;
+}
+
+.subCouncilCard1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 70px;
+}
+
+.subCouncilCard2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-self: center;
+    padding-left: 170px;
+}
+
+.subCouncilLogo {
+    border-radius: 50%;
+    background-color: azure;
+    height: 250px;
+    width: 250px;
+    box-shadow: #f7141b 0px 0px 0px 6px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.subCouncilLogo:hover {
+    transform: scale(1.04);
+}
+
+.butt {
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-weight: 600;
+}
+
+.popupWindow {
+    height: auto;
+    width: 600px;
+    background-color: rgba(240, 21, 21, 0.76);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(27, 27, 27, 0.699) 0px 0px 0px 3px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionStyle {
+        height: 1700px;
+    }
+    .subCouncilCard1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 15px;
+    }
+    .subCouncilCard2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 15px;
+    }
+    .subCouncilLogo {
+        margin-bottom: 80px;
+    }
+    .popupWindow {
+        width: 90vw;
+        height: auto;
+    }
+}

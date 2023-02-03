@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    width: auto;
+    background-color: rgba(115, 49, 49, 0.5);
+    top: 0;
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navLinks1{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 0 7px 0 7px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.navLinks1:hover {
+    border-bottom: 2px solid red;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.navLinks2{
+    border: 2px rgb(255, 253, 253);
+}
